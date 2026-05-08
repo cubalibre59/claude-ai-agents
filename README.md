@@ -37,4 +37,4 @@ Repository pour mes agents IA Claude et configurations MCP.
 - GitHub
 
 ## Auteur
-Mon nom
+TAMAYO MIRIAM
