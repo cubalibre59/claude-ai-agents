@@ -1,0 +1,20 @@
+{
+  "name": "symfony-agent",
+  "version": "1.0.0",
+  "description": "Agent spécialisé Symfony / PHP",
+  "model": "claude-sonnet-4-5",
+  "temperature": 0.2,
+  "max_tokens": 8192,
+  "tools": ["filesystem", "github"],
+  "mcp_servers": ["filesystem", "github"],
+  "capabilities": [
+    "symfony-development",
+    "doctrine-orm",
+    "api-platform",
+    "security",
+    "testing",
+    "performance"
+  ],
+  "frameworks": ["symfony", "api-platform", "doctrine"],
+  "php_version": ">=8.2"
+}

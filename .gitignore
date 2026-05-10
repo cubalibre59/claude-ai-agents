@@ -1,0 +1,29 @@
+# Secrets et environnements locaux
+.env
+.env.local
+.env.*.local
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Node.js (si scripts MCP locaux)
+node_modules/
+npm-debug.log*
+
+# Fichiers temporaires
+tmp/
+temp/
+*.tmp

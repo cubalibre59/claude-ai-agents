@@ -1,0 +1,8 @@
+{
+  "server": "browser",
+  "package": "@playwright/mcp",
+  "version": "latest",
+  "browser": "chromium",
+  "headless": true,
+  "capabilities": ["navigate", "click", "type", "screenshot", "extract-text", "scroll"]
+}

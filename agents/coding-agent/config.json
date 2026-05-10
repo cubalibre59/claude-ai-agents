@@ -1,0 +1,19 @@
+{
+  "name": "coding-agent",
+  "version": "1.0.0",
+  "description": "Agent généraliste de développement logiciel",
+  "model": "claude-sonnet-4-5",
+  "temperature": 0.3,
+  "max_tokens": 8192,
+  "tools": ["filesystem", "github"],
+  "mcp_servers": ["filesystem", "github"],
+  "capabilities": [
+    "code-generation",
+    "code-review",
+    "debugging",
+    "documentation",
+    "refactoring",
+    "testing"
+  ],
+  "languages": ["php", "javascript", "typescript", "python", "sql", "bash", "html", "css"]
+}

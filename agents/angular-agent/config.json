@@ -1,0 +1,21 @@
+{
+  "name": "angular-agent",
+  "version": "1.0.0",
+  "description": "Agent spécialisé Angular / TypeScript",
+  "model": "claude-sonnet-4-5",
+  "temperature": 0.2,
+  "max_tokens": 8192,
+  "tools": ["filesystem", "github", "browser"],
+  "mcp_servers": ["filesystem", "github", "browser"],
+  "capabilities": [
+    "angular-development",
+    "rxjs",
+    "ngrx",
+    "angular-material",
+    "testing",
+    "performance-optimization"
+  ],
+  "frameworks": ["angular", "ngrx", "angular-material"],
+  "node_version": ">=18",
+  "angular_version": ">=17"
+}

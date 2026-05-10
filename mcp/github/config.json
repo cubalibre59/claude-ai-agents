@@ -1,0 +1,9 @@
+{
+  "server": "github",
+  "package": "@modelcontextprotocol/server-github",
+  "version": "latest",
+  "env_vars": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": "À définir dans les variables d'environnement"
+  },
+  "capabilities": ["repos", "issues", "pull-requests", "commits", "releases"]
+}
