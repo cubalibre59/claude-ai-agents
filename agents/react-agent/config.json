@@ -1,0 +1,34 @@
+{
+  "name": "react-agent",
+  "version": "1.0.0",
+  "description": "Agent spécialisé React / TypeScript / Next.js",
+  "model": "claude-sonnet-4-5",
+  "temperature": 0.2,
+  "max_tokens": 8192,
+  "tools": ["filesystem", "github", "browser"],
+  "mcp_servers": ["filesystem", "github", "browser"],
+  "capabilities": [
+    "react-development",
+    "nextjs",
+    "state-management",
+    "react-query",
+    "typescript",
+    "testing",
+    "performance-optimization",
+    "component-design"
+  ],
+  "frameworks": [
+    "react",
+    "next.js",
+    "redux-toolkit",
+    "zustand",
+    "tanstack-query",
+    "react-hook-form",
+    "react-router",
+    "tailwindcss",
+    "vitest",
+    "playwright"
+  ],
+  "node_version": ">=18",
+  "react_version": ">=18"
+}
