@@ -1,0 +1,22 @@
+{
+  "name": "mcp-agent",
+  "version": "1.0.0",
+  "description": "Agent spécialisé MCP (Model Context Protocol)",
+  "model": "claude-sonnet-4-5",
+  "temperature": 0.2,
+  "max_tokens": 8192,
+  "tools": ["filesystem", "github"],
+  "mcp_servers": ["filesystem", "github"],
+  "capabilities": [
+    "mcp-server-development",
+    "mcp-tools",
+    "mcp-resources",
+    "mcp-prompts",
+    "claude-desktop-config",
+    "mcp-debugging",
+    "api-integration"
+  ],
+  "languages": ["typescript", "python"],
+  "sdk": "@modelcontextprotocol/sdk",
+  "transports": ["stdio", "sse", "http-streamable"]
+}

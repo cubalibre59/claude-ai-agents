@@ -1,0 +1,23 @@
+{
+  "name": "devops-agent",
+  "version": "1.0.0",
+  "description": "Agent spécialisé DevOps, CI/CD et infrastructure",
+  "model": "claude-sonnet-4-5",
+  "temperature": 0.1,
+  "max_tokens": 8192,
+  "tools": ["filesystem", "github", "browser"],
+  "mcp_servers": ["filesystem", "github", "browser"],
+  "capabilities": [
+    "docker",
+    "docker-compose",
+    "kubernetes",
+    "github-actions",
+    "gitlab-ci",
+    "terraform",
+    "ansible",
+    "monitoring",
+    "bash-scripting"
+  ],
+  "cloud_providers": ["aws", "gcp", "azure", "hetzner", "ovh"],
+  "tools_expertise": ["prometheus", "grafana", "loki", "sentry", "uptime-kuma"]
+}
